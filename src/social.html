@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        main{
+            flex-wrap: wrap;
+        }
+
+        .upper {
+            display: flex;
+            background-color: antiquewhite;
+            border-radius: 000px 000px 1000px 1000px ;
+            justify-content: space-around;
+            height:346px;
+            align-items: center;
+            box-shadow: inset 0px 29px 40px white;
+        }
+
+        .lower{
+            display: flex;
+            background-color: antiquewhite;
+            border-radius: 1000px 1000px 0px 0px ;
+            justify-content: space-around;
+            height: 346px;
+            align-items: center;
+        }
+
+        .upper div{
+            height:150px;
+            width:150px;
+        }
+
+        .lower div{
+            height:150px;
+            width:150px;
+        }
+
+        img{
+            height:150px;
+            width:150px;
+        }
+        img:hover{
+            height:160px;
+            width:160px;
+        }
+
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color:  white(18, 18, 62);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0px 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color:black;
+        }
+        nav ul li a:hover{
+            color:rgb(170, 107, 228);
+            font-size: 1.6rem;
+        }
+
+        .right li{
+            padding: auto;
+            font-size: 1.5rem;
+        }
+
+        .left{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="/portfolio2.html">Services</a></li>
+                    <li><a href="/portfolio2.html">Contact</a></li>
+                    <li><a href="./social.html">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <section class="upper">
+            <div><a href="https://github.com/AshishKatiwal"><img src="./images/GitHub-logo.png"></a></div>
+            <div><a href="https://www.linkedin.com/in/ashish-katiwal-4821a3284/"><img src="./images/LinkedIn-logo.png"></a></div>
+            <div><a href="https://leetcode.com/user9178qj/"><img src="./images/LeetCode_logo_rvs.png" alt=""></a></div>
+        </section>
+        <section class="lower">
+            <div><a href="https://www.instagram.com/ashish_katiwal/?hl=en"><img src="./images/pngimg.com - instagram_PNG10.png"></a></div>
+            <div><a href="https://m.facebook.com/people/Ashish-Katiwal/100008580781993/"><img src="./images/Facebook_Logo_2023.png" alt=""></a></div>
+            <div><a href="https://wa.me/+919911065925"><img src="./images/HC2zl6u.png" alt=""></a></div>
+        </section>
+    </div>
+</body>
+</html>

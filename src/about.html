@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100vh;
+            width: 1455px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            height: 300px;
+            border-radius: 50%;
+            margin-top: 190px;
+            margin-left: 390px;
+        }
+        .leftside{
+            height: 100%;
+            width: 550px;
+            border-radius: 0px 90px 90px 0px;
+            background-color: rgb(255, 87, 51);
+        }
+        .main{
+            width: 500px;
+            width: 400px;
+            margin-top: 140px;
+            margin-left: 170px;
+            font-size: 1.2rem;
+            line-height: 25px;
+            padding: 20px;
+        }
+
+        .main:hover{
+            box-shadow: 0px 0px 70px rgb(255, 87, 51);
+            transition: 0.8s;
+            border-radius: 25% 0% 25% 0%;
+        }
+
+        p{
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color:  white(18, 18, 62);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0px 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color:rgb(255, 87, 51);
+        }
+        nav ul li a:hover{
+        color:rgb(170, 107, 228);
+        font-size: 1.8rem;
+        }
+
+        .right li{
+            padding: auto;
+            font-size: 1.5rem;
+        }
+
+        .left{
+            font-size: 2.5rem;
+            color:black ;
+            height: 50px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/src/about.html">About</a></li>
+                    <li><a href="/portfolio2.html">Services</a></li>
+                    <li><a href="/portfolio2.html">Contact</a></li>
+                    <li><a href="./social.html">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <section class="leftside">
+            <img src="../src/images/IMG_5996_Original.png" alt="" srcset="">
+        </section>
+
+        <section class="rightside">
+            <section class="main">
+                <center>
+                    <h1>About Me</h1>
+                    <p> Hi, My name is Ashish katiwal.
+                        <br>Ambitious and tech-savvy recently pursuing a Master’s degree in Computer Science from Bharati Vidyapeeth University. 
+                        <br>Eager to launch my career in the dynamic world of Information Technology. 
+                        <br>During my academic journey,
+                        I acquired a solid foundation in programming languages such as Java, Python, and HTML as well as practical
+                        experience in software development and website development.
+                        I am a front-end Web Developer.</p>
+                </center>
+            </section>
+        </section>
+    </div>
+</body>
+</html>   
